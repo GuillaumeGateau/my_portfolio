@@ -1,0 +1,29 @@
+body {
+	border-top-style:solid;
+	border-top-width: 4px;
+	border-bottom-style:solid;
+	border-bottom-width: 4px;
+}
+
+
+.top_span {
+	padding-top: 40px;
+	text-align: center;
+}
+
+
+h1 {
+	color:#000000;
+	text-transform: uppercase;
+	font-size: 60;
+	font-family: helvetica;
+	margin-top: 10px;
+}
+
+a {
+	color:#000000;
+	padding: 2px  2px  2px  2px ;
+	font-size: 20;
+	font-family: helvetica;
+}
+
