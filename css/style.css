@@ -5,7 +5,6 @@ h1, h2, h3, h4, h5, p, ul, nav {
 
 }
 
-
 body {
 	border-top-style:solid;
 	border-top-width: 4px;
@@ -14,7 +13,7 @@ body {
 	border-color: rgba(0,0,255,.3);
 	margin-left: 20%;
 	margin-right: 20%;
-	padding-bottom: 20px;
+	padding-bottom: 2%;
 }
 
 .major-section {
@@ -51,6 +50,10 @@ h2 {
 	padding-top: 10px;
 }
 
+h2#about-me {
+	text-align: center;
+}
+
 h3 {
 	font-size: 16;
 	margin-top: 10px;
@@ -85,11 +88,6 @@ h4{
 	float: right;
 }
 
-nav	{
-	color:#000000;
-	padding: 2px  2px  2px  2px ;
-	font-size: 14;
-}
 
 a {
 	color:rgba(0,0,255,.6);
@@ -106,17 +104,26 @@ div#about-me-main {
 	border-bottom-style:solid;
 	border-bottom-width: 2px;
 	border-color: rgba(0,0,255,.3);
-	padding-bottom: 2%;
-	float:left;
+	padding-bottom: 3%;
+	display: inline-block;
 }
 
-p#about-me-main {
+p#about-me-paragraph {
 	padding-left: 5px;
+	width: 70%;
+	display: inline-block;
 }
 
 img#mudder {
+    position: relative;
     max-height: 200px;
     max-width: auto;
-    float:right;
+    display: inline-block;
+    vertical-align: top;
 }
 
+.logo {
+	height: 50px;
+	width: 50px;
+	padding: 4% 6% 2% 6%;
+}
