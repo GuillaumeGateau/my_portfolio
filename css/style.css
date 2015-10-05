@@ -114,6 +114,21 @@ p#about-me-paragraph {
 	display: inline-block;
 }
 
+p#quote {
+	padding-top: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-size: 20px;
+	text-decoration: italic;
+	text-align: center;
+}
+
+p#quoter {
+	font-size: 20px;
+	text-decoration: bold;
+	text-align: center;
+}
+
 img#mudder {
     position: relative;
     max-height: 200px;
@@ -127,3 +142,5 @@ img#mudder {
 	width: 50px;
 	padding: 4% 6% 2% 6%;
 }
+
+
